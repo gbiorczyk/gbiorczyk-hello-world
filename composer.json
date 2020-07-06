@@ -1,0 +1,24 @@
+{
+  "name": "gbiorczyk/gbiorczyk-hello-world",
+  "type": "package",
+  "version": "1.0.0",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Mateusz Gbiorczyk"
+    }
+  ],
+  "extra": {
+    "text-domain": "notice-gbiorczyk-hello-world",
+    "translations-folder": "lang",
+    "po-files": {
+      "pl_PL": "pl_PL.po"
+    }
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "GbiorczykHelloWorld\\": "src/"
+    }
+  }
+}
